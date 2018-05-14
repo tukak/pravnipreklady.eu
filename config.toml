@@ -1,5 +1,5 @@
 # Site settings
-baseurl = "https://example.org/"
+baseurl = "/"
 languageCode = "cz-CZ"
 title = "Právní překlady"
 theme = "hugo-agency-theme"
