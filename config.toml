@@ -66,7 +66,7 @@ googleAnalytics = ""
 
     # postpended links
     [[menu.postpend]]
-      url = "http://www.activlingua.cy"
+      url = "http://www.activlingua.cz"
       name = "ActivLingua"
       weight = 10
 
@@ -251,7 +251,12 @@ googleAnalytics = ""
   [params.contact]
     enable = true
     title = "Kontaktujte nás"
-    subtitle  = "Pošlete svou zprávu nebo svůj dotaz, ozveme se vám."
+    subtitle  = '''Pošlete svou zprávu nebo svůj dotaz, ozveme se vám.<br>
+	Mgr. Kateřina Kutnerová<br>
+	Kanice 316<br>
+	664 01<br>
+	tel: +420 724 026 913<br>
+	mail: <a href=mailto:katerina@pravnipreklady.eu>katerina@pravnipreklady.eu</a>'''
     buttonText = "Poslat zprávu"
 	netlify = true
 
@@ -276,8 +281,8 @@ googleAnalytics = ""
     email = "lukas@kutner.cz"
 
     # Success and error message overwrite for async contact form
-    #thanks = "Thank you for awesomely contacting us."
-    #error = "Message could not be send. Please contact us at mail@example.com instead."
+    thanks = "Děkujeme za zprávu, co nejdřive se Vám ozveme."
+    error = "Zpráva nemohla být odeslána, kontaktujte nás prosím na emailu <a href=mailto:katerina@pravnipreklady.eu>katerina@pravnipreklady.eu</a> nebo telefonicky."
 
     [params.contact.captcha]
 		sitekey = "6Lc5LFwUAAAAAHl9LbpCvwwICkKh4TdEe8Q0lveH"
