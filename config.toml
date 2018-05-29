@@ -75,8 +75,8 @@ googleAnalytics = ""
   [params.hero]
     # To change the background image of the hero, replace 'header-bg.jpg' in
     # the 'static/img' folder.
-    title = "Vítejte na naší stránce!"
-    subtitle = "Rádi Vám něco přeložíme"
+    title = "Soudně ověřené překlady a tlumočení"
+    subtitle = "německého jazyka"
     buttonText = "Řekni mi víc"
 
 
@@ -90,21 +90,21 @@ googleAnalytics = ""
 
     [[params.services.row.list]]
       icon = "fa-globe"
-      title = "Právní překlady"
+      title = "Překlady"
       description = "Právní překlady jsou naše specialita. Něco nám pošlete a mi to přeložíme."
       url = "#"
 
+	[[params.services.row.list]]
+      icon = "fa-gavel"
+      title = "Soudně ověřené překlady"
+      description = "Právní překlady jsou naše specialita. Něco nám pošlete a mi to přeložíme."
+      url = "#"
+	  
     [[params.services.row.list]]
       icon = "fa-comments"
       title = "Tlumočení"
       description = "Umíme u tlumočení. Dojedeme s Vámi kamkoliv nebo tlumočíme po telefonu"
       url = "#"
-
-    [[params.services.row.list]]
-      icon = "fa-lock"
-      title = "Diskrétnost"
-      description = "Vaše data jsou u nás v bezpečí." 
-	  url = "#"
 
   # Portfolio section
   [params.portfolio]
@@ -126,8 +126,8 @@ googleAnalytics = ""
     # About section
   [params.about]
     enable = true
-    title = "O nás"
-    subtitle = "A tohle jsme my."
+    title = "O mně"
+    subtitle = "Mgr. Kateřina Kutnerová"
     endpoint = "Překládejte<br>s<br>námi!"
 
     # The events will be listed from the top to the bottom.
@@ -135,21 +135,33 @@ googleAnalytics = ""
     # Replace them with your own.
     [[params.about.events]]
       img = "1.jpg"
-      date = "2009"
-      title = "Založení ActivLingua"
-      description = "Activlingua vznikla bla bla bla bla"
+      date = "1999-2005"
+      title = "Filozofická fakulta MU"
+      description = "Magisterské studium germanistiky a bohemistiky"
 	  
     [[params.about.events]]
       img = "2.jpg"
-      date = "Březen 2011"
-      title = "Úspěch"
-      description = "Tady se nám začalo dařit"
+      date = "2001"
+      title = "Zahájení živnosti"
+      description = "Překlady, tlumočení, lektorská činnost"
 	  
     [[params.about.events]]
       img = "3.jpg"
-      date = "December 2017"
-      title = "Právní překlady"
-      description = "Zvláštní stránka pro právní překlady"
+      date = "2009"
+      title = "Univerzita Karlova - Juridikum"
+      description = "Doplňkové studium pro soudní překladatele a tlumočníky"
+	  
+	[[params.about.events]]
+      img = "4.jpg"
+      date = "2009"
+      title = "Jmenováním soudním překladatelem a tlumočníkem"
+      description = ""  
+
+	[[params.about.events]]
+      img = "4.jpg"
+      date = "2009"
+      title = "ActivLingua"
+      description = "Založení jazykové agentury se specializací němčina, ruština, angličtina"  	  
 
   # Team section
   [params.team]
@@ -235,6 +247,7 @@ googleAnalytics = ""
     title = "Kontaktujte nás"
     subtitle  = "Pošlete svou zprávu nebo svůj dotaz, ozveme se vám."
     buttonText = "Poslat zprávu"
+	netlify = true
 
     # Since this template is static, the contact form uses www.formspree.io as a
     # proxy. The form makes a POST request to their servers to send the actual
@@ -259,6 +272,9 @@ googleAnalytics = ""
     # Success and error message overwrite for async contact form
     #thanks = "Thank you for awesomely contacting us."
     #error = "Message could not be send. Please contact us at mail@example.com instead."
+
+    [params.contact.captcha]
+		sitekey = ""
 
     # 'warning' defines error messages for invalid inputs
     [params.contact.form.name]
