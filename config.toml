@@ -144,6 +144,12 @@ googleAnalytics = ""
       date = "2001"
       title = "Zahájení živnosti"
       description = "Překlady, tlumočení, lektorská činnost"
+	
+	[[params.about.events]]
+      img = "2.jpg"
+      date = "2001 - 2009"
+      title = "Studijní jazykové pobyty"
+      description = "Německo, Rakousko, Rusko, Ukrajina"  
 	  
     [[params.about.events]]
       img = "3.jpg"
@@ -165,7 +171,7 @@ googleAnalytics = ""
 
   # Team section
   [params.team]
-    enable = true
+    enable = false
     # Possibility to center items
     #center = true
     title = "Náš skvělý tým"
@@ -216,7 +222,7 @@ googleAnalytics = ""
 
   # Client section
     [params.clients_list]
-      enable = true
+      enable = false
       # Possibility to center items
       #center = true
       # Optional client title specifying the involvement
@@ -274,7 +280,7 @@ googleAnalytics = ""
     #error = "Message could not be send. Please contact us at mail@example.com instead."
 
     [params.contact.captcha]
-		sitekey = ""
+		sitekey = "6Lc5LFwUAAAAAHl9LbpCvwwICkKh4TdEe8Q0lveH"
 
     # 'warning' defines error messages for invalid inputs
     [params.contact.form.name]
@@ -308,18 +314,8 @@ googleAnalytics = ""
     copyright = "Published under the Apache License 2.0."
 
     [[params.footer.social]]
-      icon = "fa-twitter"
-      link = "#"
-      title = "Twitter"
-
-    [[params.footer.social]]
-      icon = "fa-facebook"
-      link = "#"
-      title = "Facebook"
-
-    [[params.footer.social]]
       icon = "fa-linkedin"
-      link = "#"
+      link = "https://cz.linkedin.com/in/kutnerova"
       title = "LinkedIn"
 
     [[params.footer.quicklinks]]
