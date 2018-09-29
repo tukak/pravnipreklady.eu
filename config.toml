@@ -272,7 +272,7 @@ googleAnalytics = ""
 	tel: +420 724 026 913<br>
 	mail: <a href=mailto:katerina@pravnipreklady.eu>katerina@pravnipreklady.eu</a>'''
     buttonText = "Poslat zprávu"
-	netlify = true
+	  netlify = true
 
     # Since this template is static, the contact form uses www.formspree.io as a
     # proxy. The form makes a POST request to their servers to send the actual
