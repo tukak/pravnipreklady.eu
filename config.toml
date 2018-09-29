@@ -17,7 +17,7 @@ googleAnalytics = ""
 
   # To provide some metadata for search engines feel free to add a few
   # information about you and your website.
-  name = "Your name"
+  name = "Your name" #TODO
   description = "Your description"
 
   # Link custom assets relative to /static
@@ -84,26 +84,40 @@ googleAnalytics = ""
   [params.services]
     enable = true
     title = "Služby"
-    subtitle = "Tohle všechno Vám nabízíme."
+    subtitle = "Vždy profesionální, spolehlivé a diskrétní."
 
     [[params.services.row]]
 
     [[params.services.row.list]]
       icon = "fa-globe"
       title = "Překlady"
-      description = "Právní překlady jsou naše specialita. Něco nám pošlete a mi to přeložíme."
+      description = """Nabízím běžné, ale i soudně ověřené překlady z/do němčiny. Provádím především překlady právních textů jakou jsou například překlady smluv, obchodních podmínek, úředních listin (rodné listy, oddací listy, výpisy z obchodního rejstříku, výpisy z rejstříku trestů, diplomy apod.) a soudních dokumentů. <br><br>
+      Mými klienti jsou často české i zahraniční firmy, takže se velmi často setkávám s s překlady obchodní dokumentace, s překlady návodů, cenových nabídek, protokolů, účetních uzávěrek, zadávací dokumentace, s překlady technické dokumentace apod. <br><br> 
+      Pro vytvoření přesné cenové nabídky a stanovaní termínu dodání potřebuji znát konkrétní překládaný text. Zašlete mi ho a v co nejkratší možné době obdržíte konkrétní cenu i reálný termín dodání. V ceně překladu je již zahrnuta cena základní jazykové korektury. <br><br> Při kontaktu s klientem se vždy snažím o individuální přístup tak, abych klientovi maximálně vyhověla. Platební i časové podmínky vždy domluvíme předem, aby bylo zajištěná maximální kvalita a spokojenost zákazníka."""
       url = "#"
 
 	[[params.services.row.list]]
       icon = "fa-gavel"
-      title = "Soudně ověřené překlady"
-      description = "Právní překlady jsou naše specialita. Něco nám pošlete a mi to přeložíme."
+      title = "Soudní překlady"
+      description = """Ověřený (neboli soudní) překlad je překlad opatřený kulatým razítkem a podpisem soudního překladatele a je svázaný většinou s originální listinou (případně její ověřenou kopií). Ověřené překlady většinou potřebujete při komunikaci s úřady, při žádostech o práci v zahraničí, při sňatku s osobou jiné státní příslušnosti, při uzavírání mezinárodních smluv apod. <br><br> 
+      Po absolvování germanistiky a bohemistiky na Filozovické fakultě Masarykovy Univerzity a Doplňkového studia na Právnické fakultě Univerzity Karlovy jsem byla v roce 2009 jmenována soudním tlumočníkem a překladatelem. <br><br>
+      Pokud tedy potřebujete ověřené překlady z/do němčiny, jsem tu, abych Vám pomohla. <br><br>
+      Nejčastější překlady listin:<br>
+      - překlad rodného listu<br>
+      - překlad oddacího listu<br>
+      - překlad diplomů a vysvědčení<br>
+      - překlad smluv, plných mocí<br>
+      - překlad výpisů z rejstříku trestů<br>
+      - překlad výpisů z obchodního rejstříku<br>
+      - atd.<br>
+      """
       url = "#"
 	  
     [[params.services.row.list]]
       icon = "fa-comments"
       title = "Tlumočení"
-      description = "Umíme u tlumočení. Dojedeme s Vámi kamkoliv nebo tlumočíme po telefonu"
+      description = """Pokud potřebujete vést např. obchodní jednání nebo prezentaci v jiném jazyce, nabízím Vám konsekutivní tlumočení. Při mé práci tlumočníka často doprovázím zástupce firem např. na různá školen, prohlídky provozoven a podniků, na výstavy a veletrhy, obchodní prezentace a jednání. Při tlumočení se vždy snažím o to, aby si obě strany maximálné porozumněly a uměly vyřešit všechny problémy a úskalí. <br><br> 
+      Tlumočníka budete také potřebovat např. při svatebím obřadu s osobou jiné státní příslušnosti. I pro tyto příležitosti jsem Vám k dispozici."""
       url = "#"
 
   # Portfolio section
