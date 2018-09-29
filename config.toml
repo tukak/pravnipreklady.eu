@@ -298,8 +298,8 @@ googleAnalytics = ""
     thanks = "Děkujeme za zprávu, co nejdřive se Vám ozveme."
     error = "Zpráva nemohla být odeslána, kontaktujte nás prosím na emailu <a href=mailto:katerina@pravnipreklady.eu>katerina@pravnipreklady.eu</a> nebo telefonicky."
 
-    [params.contact.captcha]
-		sitekey = "6Lc5LFwUAAAAAHl9LbpCvwwICkKh4TdEe8Q0lveH"
+    #[params.contact.captcha]
+		#sitekey = "6Lc5LFwUAAAAAHl9LbpCvwwICkKh4TdEe8Q0lveH"
 
     # 'warning' defines error messages for invalid inputs
     [params.contact.form.name]
