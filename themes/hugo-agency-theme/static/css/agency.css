@@ -13,6 +13,11 @@ body {
     color: #777;
 }
 
+ul {
+    color: #777;
+    text-align: left;
+}
+
 .text-primary {
     color: #fed136;
 }
