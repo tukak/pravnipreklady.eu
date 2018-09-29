@@ -1,7 +1,10 @@
 // Smooth scrolling via animate()
 $(document).ready(function(){
-  if ($('.g-recaptcha')) {
+  if ($('.g-recaptcha')>0) {
     checkReCaptcha()
+  } else {
+    $('.captcha-error').hide();
+    $('.g-recaptcha-filler').hide();
   }
 
   $("a").on('click', function(event) {
