@@ -23,7 +23,7 @@
           name="sentMessage"
           id="contactForm
           {{- if $contact.netlify -}}
-            " data-netlify="true"
+            " data-netlify="true" data-netlify-recaptcha="true"
           {{- else -}}
             " action="{{- $contact.postURL | default (printf "//formspree.io/%s" (or $contact.email .Site.Params.email)) -}}"
           {{- end -}}>
