@@ -66,7 +66,7 @@ $('.navbar-collapse ul li a').click(function() {
 
 // Contact form validation
 $.validate({
-  modules : 'html5, toggleDisabled'
+  modules : 'html5'
 });
 
 function onContactCaptcha($form) {
