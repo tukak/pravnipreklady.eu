@@ -26,6 +26,8 @@
     {{ if .Site.Params.clients_list.enable }}
       {{ partial "clients.html" . }}
     {{ end }}
+    
+    {{ partial "reviews.html" .}}
 
     {{ if .Site.Params.contact.enable }}
       {{ partial "contact.html" . }}
