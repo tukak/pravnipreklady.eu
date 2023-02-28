@@ -92,8 +92,9 @@ googleAnalytics = ""
       icon = "fa-globe"
       title = "Překlady"
       description = """Nabízím běžné, ale i soudně ověřené překlady z/do němčiny. Provádím především překlady právních textů jako jsou například překlady smluv, obchodních podmínek, úředních listin (rodné listy, oddací listy, výpisy z obchodního rejstříku, výpisy z rejstříku trestů, diplomy apod.) a soudních dokumentů. <br><br>
-      Mými klienti jsou často české i zahraniční firmy, takže se velmi často setkávám s překlady obchodní dokumentace, s překlady návodů, cenových nabídek, protokolů, účetních uzávěrek, zadávací dokumentace, s překlady technické dokumentace apod. <br><br> 
-      Pro vytvoření přesné cenové nabídky a stanovaní termínu dodání potřebuji znát konkrétní překládaný text. Zašlete mi ho a v co nejkratší možné době obdržíte konkrétní cenu i reálný termín dodání. V ceně překladu je již zahrnuta cena základní jazykové korektury. <br><br> Při kontaktu s klientem se vždy snažím o individuální přístup tak, abych klientovi maximálně vyhověla. Platební i časové podmínky vždy domluvíme předem, aby byla zajištěna maximální kvalita a spokojenost zákazníka."""
+      Mými klienty jsou často české i zahraniční firmy, takže se velmi často setkávám s překlady obchodní dokumentace, s překlady návodů, cenových nabídek, protokolů, účetních uzávěrek, zadávací dokumentace, s překlady technické dokumentace, s texty z oboru zdravotnictví, zemědělství a techniky apod. <br><br> 
+      Pro vytvoření přesné cenové nabídky a stanovaní termínu dodání potřebuji znát konkrétní překládaný text. Zašlete mi ho a v co nejkratší možné době obdržíte konkrétní cenu i reálný termín dodání. V ceně překladu je již zahrnuta cena základní jazykové korektury. <br><br> Při kontaktu s klientem se vždy snažím o individuální přístup tak, abych klientovi maximálně vyhověla. Platební i časové podmínky vždy domluvíme předem, aby byla zajištěna maximální kvalita a spokojenost zákazníka. <br<br>
+      Je možné se domluvit na expresním vyhotovení překladu do 24 hodin, v případě, že to text dovoluje."""
       url = "#"
 
 	[[params.services.row.list]]
@@ -175,7 +176,7 @@ googleAnalytics = ""
 	[[params.about.events]]
       img = "4.jpg"
       date = "2009"
-      title = "Jmenováním soudním překladatelem a tlumočníkem"
+      title = "Jmenování soudním překladatelem a tlumočníkem"
       description = ""  
 
 	[[params.about.events]]
