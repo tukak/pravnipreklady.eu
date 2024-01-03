@@ -144,7 +144,9 @@ googleAnalytics = ""
     enable = true
     title = "O mně"
     subtitle = "Mgr. Kateřina Kutnerová"
-    endpoint = "Překládejte<br>s<br>námi!"
+    endpoint = """Překládejte  
+    s  
+    námi!"""
 
     # The events will be listed from the top to the bottom.
     # All images are stored under 'static/img/about'.
