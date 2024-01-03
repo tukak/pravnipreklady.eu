@@ -334,17 +334,8 @@ googleAnalytics = ""
   # Footer section
   [params.footer]
     enable = true
-    copyright = "Published under the Apache License 2.0."
 
     [[params.footer.social]]
       icon = "fa-linkedin"
       link = "https://cz.linkedin.com/in/kutnerova"
       title = "LinkedIn"
-
-    [[params.footer.quicklinks]]
-      text = "Privacy Policy"
-      link = "#"
-
-    [[params.footer.quicklinks]]
-      text = "Terms of Use"
-      link = "#"
